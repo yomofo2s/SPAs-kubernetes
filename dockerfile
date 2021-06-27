@@ -1,2 +1,2 @@
-FROM nginx:1.21.0-alpine
+FROM yomofo2s/rendertron:latest
 ADD . /usr/share/nginx/html
