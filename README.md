@@ -1,4 +1,4 @@
-A Dockerfile is created for rendertron application and build
+The Dockerfile is created for rendertron application and build. The kubernetes resources I created as yaml files is located inside deploy-package\rendertron-workflow.
 
 The image is uploaded on the Docker hub [yomofo2s/rendertron:latest](https://hub.docker.com/r/yomofo2s/rendertron)
 
