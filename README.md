@@ -1,4 +1,4 @@
-# Rendertron
+# This application was build from Rendertron for a SPAs
 
 [![CI](https://github.com/GoogleChrome/rendertron/workflows/CI/badge.svg)](https://github.com/GoogleChrome/rendertron/actions)
 [![NPM package](https://img.shields.io/npm/v/rendertron.svg)](https://npmjs.org/package/rendertron)
