@@ -1,0 +1,13 @@
+###addding a service to rendertron
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rendertron-service
+spec:
+  selector:
+    app: rendertron-deployment
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
