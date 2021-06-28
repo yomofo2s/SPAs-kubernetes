@@ -5,6 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
+#the replicas allow self-healing
   replicas: 3
   selector:
     matchLabels:

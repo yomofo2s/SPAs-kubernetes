@@ -4,6 +4,7 @@ metadata:
   name: minimal-ingress
   namespace: ingress-nginx
   annotations:
+  #for whitelisting - inginx.ingress.kubernetes.io/whitelist-source-range: "1.1.1.1/24"
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
