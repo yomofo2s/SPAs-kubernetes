@@ -19,4 +19,11 @@ spec:
       - name: rendertron-kube
         image: yomofo2s/rendertron:latest
         ports:
-        - containerPort: 80
+          - containerPort: 80
+        resources:
+          limits:
+            cpu: 500m
+            memory: 64Mi
+          requests:
+            cpu: 200m
+            memory: 32Mi
